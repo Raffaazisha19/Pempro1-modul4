@@ -13,7 +13,8 @@ if a < b:
         
         i += 1
         j -= 1
-    else:     i = a
+else:
+    i = a
     j = b
     while i >= b:
         print(f"{i} {j}", end="")
